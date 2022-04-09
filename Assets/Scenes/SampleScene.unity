@@ -452,6 +452,7 @@ GameObject:
   - component: {fileID: 1624499302}
   - component: {fileID: 1624499307}
   - component: {fileID: 1624499306}
+  - component: {fileID: 1624499308}
   m_Layer: 0
   m_Name: Cubo SimpleMove
   m_TagString: Untagged
@@ -566,6 +567,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1624499308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624499301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f84cfde1680fe4f9197d33410cebc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  rotateSpeed: 3
 --- !u!1 &1714752737
 GameObject:
   m_ObjectHideFlags: 0
