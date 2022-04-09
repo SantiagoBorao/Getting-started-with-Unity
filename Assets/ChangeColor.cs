@@ -9,7 +9,7 @@ public class ChangeColor : MonoBehaviour
 public void ChangeToBlack()
 {
     //gameObject en minúsucla hace referencia al objeto en el que se encuentra el objeto, en este caso la esfera.
-    //En este caso estamos obteniendo el Renderer del objeto en cuestión
+    //En este caso estamos obteniendo el Renderer del objeto en cuestión.
     Renderer rend = gameObject.GetComponent<Renderer>();
     rend.material.color = Color.black;
 }
@@ -20,8 +20,13 @@ public void ChangeToWhite()
     rend.material.color = Color.white;
 }
 
-    //Update is called once per frame
-    //Se llama cada frame
+
+    /* 
+    * El método Update() captura las pulsaciones de las teclas y llama a los
+    * métodos ChangeToBlack y ChangeToWhite correspondientemente.
+    * Estos métodos recuperan el componente Renderer del objeto y
+    * modifican su color actual.
+    */
     void Update()
     {
         //Devuelve true cuando se pulsa una vez la tecla
