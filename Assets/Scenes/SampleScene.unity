@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 1624499307}
   - component: {fileID: 1624499306}
   - component: {fileID: 1624499308}
+  - component: {fileID: 1624499309}
   m_Layer: 0
   m_Name: Cubo SimpleMove
   m_TagString: Untagged
@@ -543,7 +544,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624499301}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba2debd0f1f7c0f429952c629e41a3e2, type: 3}
   m_Name: 
@@ -574,13 +575,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624499301}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07f84cfde1680fe4f9197d33410cebc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
   rotateSpeed: 3
+--- !u!114 &1624499309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624499301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a04661084b40ca46b4a9a982317d3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1714752737
 GameObject:
   m_ObjectHideFlags: 0
