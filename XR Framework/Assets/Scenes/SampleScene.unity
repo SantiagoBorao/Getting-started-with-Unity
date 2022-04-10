@@ -2215,6 +2215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MockHMD
       objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530430, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UseForceGrab
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_RootOrder
       value: 4
