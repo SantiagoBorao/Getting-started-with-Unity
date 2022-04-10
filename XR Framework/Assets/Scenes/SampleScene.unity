@@ -2385,6 +2385,26 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_HapticHoverExitDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_HapticHoverExitIntensity
+      value: 0.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_PlayHapticsOnHoverExited
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_AudioClipForOnHoverEntered
+      value: 
+      objectReference: {fileID: 8300000, guid: d30aafc5fab24d0408cb66b744ff5aeb, type: 3}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_PlayAudioClipOnHoverEntered
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4636384282872155167, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_Enabled
       value: 1
