@@ -2107,7 +2107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620209800}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: 0.83, z: 0.12}
+  m_LocalPosition: {x: -0.39, y: 1.29, z: 0.12}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2215,9 +2215,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: MockHMD
       objectReference: {fileID: 0}
+    - target: {fileID: 95484555895594170, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384281912725153, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4636384282579530430, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_UseForceGrab
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155152, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155167, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_RootOrder
@@ -2265,3 +2285,215 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+--- !u!1001 &1950876766
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 95484555895594170, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Name
+      value: Mock Int Direct
+      objectReference: {fileID: 0}
+    - target: {fileID: 95484555895594170, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384281912725153, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Id
+      value: 97741477-0b05-440e-b9ab-a00e3a6ea141
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Id
+      value: 340bcd93-3e4f-4e6e-bab2-3e145def9444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Id
+      value: 76620bb0-d0d4-4efd-9853-b286a046d2bc
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Name
+      value: Select Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Id
+      value: ea3e31e9-26d8-4a4b-a220-be590be30f87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Name
+      value: UI Press Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Name
+      value: Activate Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530429, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Name
+      value: Tracking State
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282579530430, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UseForceGrab
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155152, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155167, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672118448862797543, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4636384282579530430, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+    - {fileID: 4636384282579530416, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+    - {fileID: 4636384282579530431, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+--- !u!1 &1950876767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4636384282579530418, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+  m_PrefabInstance: {fileID: 1950876766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1950876768
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950876767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1950876769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950876767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1800407264}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 0
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
