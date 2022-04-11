@@ -3188,9 +3188,41 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Id
+      value: 2a924238-2de2-41c1-ac9d-0e0ed1e974b8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Id
+      value: c2d990fe-0edb-4795-9f17-bab10066ad8d
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Id
+      value: 57b522e6-0aa6-4b15-bb4b-624ed0ad5115
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_SelectActionValue.m_Action.m_Name
+      value: Select Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Id
+      value: 429ca5e1-fae8-45b2-9448-711d23ee4c0c
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UIPressActionValue.m_Action.m_Name
+      value: UI Press Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_ActivateActionValue.m_Action.m_Name
+      value: Activate Action Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155165, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_TrackingStateAction.m_Action.m_Name
+      value: Tracking State
+      objectReference: {fileID: 0}
     - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_HapticHoverExitDuration
