@@ -3222,6 +3222,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
+      propertyPath: m_UseForceGrab
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4636384282872155166, guid: 9f3d9ddf6ade643e88c0d05f2e56d438, type: 3}
